@@ -13,7 +13,7 @@
 This project aims to develop a machine learning model that classifies the side effects of a drug based on patient data. The notebook encompasses the complete workflow from exploratory data analysis (EDA) to model evaluation, demonstrating the steps necessary to preprocess the data, train the model, and assess its performance. 
 
 ## Data Overview
-The dataset used in this project consists of [briefly describe the dataset, e.g., number of samples, features, and any relevant information]. The data was sourced from [source of the dataset, if applicable], which provides insights into the side effects experienced by patients taking various drugs.
+The dataset used in this project consists of [NAME	GENDER	DRUG NAME	AGE	RACE	SIDE EFFECTS	RACE_White	RACE_Hispanic, White	RACE_Black	RACE_Unknown	RACE_Hispanic, Black	RACE_Other	RACE_Asian, Other	RACE_Asian Indian	RACE_Chinese] features. The data was sourced from [source of the dataset, if applicable], which provides insights into the side effects experienced by patients taking various drugs.
 
 ## Technologies Used
 - Python
