@@ -24,7 +24,7 @@ The dataset used in this project consists of [briefly describe the dataset, e.g.
   - Matplotlib
   - Seaborn
   - Scikit-learn
-  - [Any other libraries used]
+
 
 ## Implementation Steps
 1. **Exploratory Data Analysis (EDA)**: 
