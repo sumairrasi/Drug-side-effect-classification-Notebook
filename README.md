@@ -40,15 +40,15 @@ The dataset used in this project consists of [briefly describe the dataset, e.g.
    - Split the dataset into training and testing sets to evaluate model performance effectively.
 
 4. **Model Training**: 
-   - Implemented various classification algorithms, including [list algorithms used, e.g., Logistic Regression, Random Forest, etc.].
+   - Implemented various classification algorithms, including [Logistic Classifier,KNN Classifier, RandomForest Classifier,Decision Classifier].
    - Tuned hyperparameters to optimize model performance.
 
 5. **Model Testing and Evaluation**: 
-   - Evaluated the model using metrics such as accuracy, precision, recall, and F1-score.
+   - Evaluated the model using metrics such as accuracy.
    - Visualized the results using confusion matrices and classification reports.
 
 ## Results
-The final model achieved an accuracy of [insert accuracy] on the test dataset, demonstrating its effectiveness in classifying drug side effects. Detailed evaluation metrics are provided within the notebook.
+The final model achieved an accuracy of 98.04% on the test dataset, demonstrating its effectiveness in classifying drug side effects. Detailed evaluation metrics are provided within the notebook.
 
 ## Future Work
 Future enhancements to this project could include:
