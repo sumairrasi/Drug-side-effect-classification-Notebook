@@ -10,10 +10,27 @@
 - [License](#license)
 
 ## Project Overview
-This project aims to develop a machine learning model that classifies the side effects of a drug based on patient data. The notebook encompasses the complete workflow from exploratory data analysis (EDA) to model evaluation, demonstrating the steps necessary to preprocess the data, train the model, and assess its performance. 
+This project aims to develop a machine learning model that classifies the side effects of a drug based on patient data. The notebook encompasses the complete workflow from exploratory data analysis (EDA) to model evaluation, demonstrating the steps necessary to preprocess the data, train the model, and assess its performance. This work is part of my internship at TCS, where I was tasked with building a reliable classification model using the provided dataset.
 
 ## Data Overview
-The dataset used in this project consists of [NAME	GENDER	DRUG NAME	AGE	RACE	SIDE EFFECTS	RACE_White	RACE_Hispanic, White	RACE_Black	RACE_Unknown	RACE_Hispanic, Black	RACE_Other	RACE_Asian, Other	RACE_Asian Indian	RACE_Chinese] features. The data was sourced from [source of the dataset, if applicable], which provides insights into the side effects experienced by patients taking various drugs.
+The dataset used in this project consists of the following features: 
+- **NAME**
+- **GENDER**
+- **DRUG NAME**
+- **AGE**
+- **RACE**
+- **SIDE EFFECTS**
+- **RACE_White**
+- **RACE_Hispanic, White**
+- **RACE_Black**
+- **RACE_Unknown**
+- **RACE_Hispanic, Black**
+- **RACE_Other**
+- **RACE_Asian, Other**
+- **RACE_Asian Indian**
+- **RACE_Chinese**
+
+This data was sourced from TCS and provides insights into the side effects experienced by patients taking various drugs.
 
 ## Technologies Used
 - Python
@@ -24,7 +41,6 @@ The dataset used in this project consists of [NAME	GENDER	DRUG NAME	AGE	RACE	SID
   - Matplotlib
   - Seaborn
   - Scikit-learn
-
 
 ## Implementation Steps
 1. **Exploratory Data Analysis (EDA)**: 
@@ -40,7 +56,7 @@ The dataset used in this project consists of [NAME	GENDER	DRUG NAME	AGE	RACE	SID
    - Split the dataset into training and testing sets to evaluate model performance effectively.
 
 4. **Model Training**: 
-   - Implemented various classification algorithms, including [Logistic Classifier,KNN Classifier, RandomForest Classifier,Decision Classifier].
+   - Implemented various classification algorithms, including Logistic Classifier, KNN Classifier, Random Forest Classifier, and Decision Tree Classifier.
    - Tuned hyperparameters to optimize model performance.
 
 5. **Model Testing and Evaluation**: 
@@ -48,7 +64,7 @@ The dataset used in this project consists of [NAME	GENDER	DRUG NAME	AGE	RACE	SID
    - Visualized the results using confusion matrices and classification reports.
 
 ## Results
-The final model achieved an accuracy of 98.04% on the test dataset, demonstrating its effectiveness in classifying drug side effects. Detailed evaluation metrics are provided within the notebook.
+The final model achieved an accuracy of **98.04%** on the test dataset, demonstrating its effectiveness in classifying drug side effects. Detailed evaluation metrics are provided within the notebook.
 
 ## Future Work
 Future enhancements to this project could include:
@@ -58,4 +74,3 @@ Future enhancements to this project could include:
 
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
