@@ -71,6 +71,7 @@ Future enhancements to this project could include:
 - Exploring additional feature engineering techniques to improve model performance.
 - Experimenting with advanced models such as ensemble methods or deep learning approaches.
 - Conducting a more extensive analysis to validate findings across different datasets.
+- Include generative AI for better quality and improve scalability
 
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
